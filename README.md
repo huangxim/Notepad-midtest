@@ -1,13 +1,14 @@
-#期中实验报告——NotePad
-##一.实验要求
- *基本要求：
-NoteList中显示条目增加时间戳显示
-添加笔记查询功能（根据标题查询）
- *扩展要求：
-附加功能：根据自身实际情况进行扩充（至少两项）
-##二.基本功能
- *1.NoteList中显示条目增加时间戳显示
-关键代码：在res—layout—notelist_item.xml布局文件中
+期中实验报告——NotePad                                                  
+一.实验要求                                                                             
+基本要求：                                                                                                                                                             
+1.NoteList中显示条目增加时间戳显示                                                                                                                                 
+2.添加笔记查询功能（根据标题查询）                                                                                                    
+扩展要求：                                                                                                                                                                                                                               
+附加功能：根据自身实际情况进行扩充（至少两项）                                                                                                             
+二.基本功能                                                                                                                                                                                                                                     
+1.NoteList中显示条目增加时间戳显示                                                                                          
+关键代码：                                                                                                                         
+在res—layout—notelist_item.xml布局文件中
 <TextView
     android:id="@android:id/text2"
     android:layout_width="match_parent"
