@@ -1,12 +1,12 @@
-期中实验报告——NotePad                                                  
-一.实验要求                                                                             
-基本要求：                                                                                                                                                             
+# 期中实验报告——NotePad                                                  
+## 一.实验要求                                                                             
+* 基本要求：                                                                                                                                                             
 1.NoteList中显示条目增加时间戳显示                                                                                                                                 
 2.添加笔记查询功能（根据标题查询）                                                                                                    
-扩展要求：                                                                                                                                                                                                                               
+* 扩展要求：                                                                                                                                                                                                                               
 附加功能：根据自身实际情况进行扩充（至少两项）                                                                                                             
-二.基本功能                                                                                                                                                                                                                                     
-1.NoteList中显示条目增加时间戳显示                                                                                          
+## 二.基本功能                                                                                                                                                                                                                                     
+* 1.NoteList中显示条目增加时间戳显示                                                                                          
 关键代码：                                                                                                                                                                                 
 在res—layout—notelist_item.xml布局文件中                         
 <TextView                                     
@@ -19,9 +19,9 @@
     android:singleLine="true" />                                       
 效果展示：                                                                                                                                                                                          
 ![image](https://user-images.githubusercontent.com/90746476/143774249-23c5b0f6-f50d-4a8a-a385-40d5022fb139.png)                                                                           
-2.添加笔记查询功能（根据标题查询）                                                                                         
+* 2.添加笔记查询功能（根据标题查询）                                                                                         
  关键代码：                                                                                           
-在res—values—strings.xml中添加menu_search字段 在res—menu—list_options_menu.xml布局文件中添加搜索功能，新增menu_search：在res—layout中新建一个查找笔记内容的布局文件note_search.xml：                                                                       
+在res—values—strings.xml中添加menu_search字段 在res—menu—list_options_menu.xml布局文件中添加搜索功能，新增menu_search：在res—layout中新建一个查找笔记内容的布局文件note_search.xml：  
 @Override                                                      
 protected void onCreate(Bundle savedInstanceState) {                                               
     super.onCreate(savedInstanceState);                                                        
@@ -80,8 +80,8 @@ public boolean onQueryTextChange(String string) {
 }                                                        
 效果展示：                                                          
 ![image](https://user-images.githubusercontent.com/90746476/143774543-aac50cb9-50b3-4297-b95c-81b0083e2f30.png)                                                           
-三、附加功能实现：                                    
-1.实现ui美化                                     
+## 三、附加功能实现：                                    
+* 1.实现ui美化                                     
 关键代码：                                   
 在菜单的布局文件（xml文件）中创建菜单栏                                                  
 <item                               
@@ -123,7 +123,7 @@ public boolean onQueryTextChange(String string) {
  效果展示：                          
  ![image](https://user-images.githubusercontent.com/90746476/143774747-012b13eb-4c5e-4185-8339-f9f554dff011.png)                                              
 点击后会变色                  
-2.改变字体颜色大小：                       
+* 2.改变字体颜色大小：                       
  关键代码：                          
 在strings.xml中添加代码： 字体大小 10号字 16号字 20号字 字体颜色 红色 黄色 在editor_options_menu.xml中添加代码：                              
 
